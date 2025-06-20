@@ -1,4 +1,4 @@
-{% set version = '0.9.8' %}
+{% set version = "0.9.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tern/tern_{{ version }}.tar.gz
-  sha256: 9970ae614b10ea74b2ec8a4f35fb36d70bd63153d2763bdb33899ba455d8030e
+  sha256: 13d1dd0d3d8263812e30c61da9908daa87c673a63bde0349f1c7486416814e2f
 
 build:
   number: 0
