@@ -46,7 +46,7 @@ requirements:
     - r-magrittr >=1.5
     - r-nestcolor >=0.1.1
     - r-rlang >=1.1.0
-    - r-rtables >=0.6.12
+    - r-rtables >=0.6.13
     - r-scales >=1.2.0
     - r-survival >=3.8_3
     - r-tibble >=2.0.0
@@ -71,7 +71,7 @@ requirements:
     - r-magrittr >=1.5
     - r-nestcolor >=0.1.1
     - r-rlang >=1.1.0
-    - r-rtables >=0.6.12
+    - r-rtables >=0.6.13
     - r-scales >=1.2.0
     - r-survival >=3.8_3
     - r-tibble >=2.0.0
