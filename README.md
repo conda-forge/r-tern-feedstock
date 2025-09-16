@@ -3,11 +3,13 @@ About r-tern-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tern-feedstock/blob/main/LICENSE.txt)
 
-Home: https://insightsengineering.github.io/tern/, https://github.com/insightsengineering/tern/
+Home: https://insightsengineering.github.io/tern/
 
 Package license: Apache-2.0
 
 Summary: Table, Listings, and Graphs (TLG) library for common outputs used in clinical trials.
+
+Development: https://github.com/insightsengineering/tern/
 
 Current build status
 ====================

@@ -12,7 +12,7 @@ source:
   sha256: 13d1dd0d3d8263812e30c61da9908daa87c673a63bde0349f1c7486416814e2f
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -27,7 +27,7 @@ requirements:
     - {{ posix }}zip               # [win]
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
-    - r-base >=4.4.0
+    - r-base
     - r-mass >=7.3_60
     - r-rdpack >=2.4
     - r-broom >=0.5.4
@@ -52,7 +52,7 @@ requirements:
     - r-tibble >=2.0.0
     - r-tidyr >=0.8.3
   run:
-    - r-base >=4.4.0
+    - r-base
     - r-mass >=7.3_60
     - r-rdpack >=2.4
     - r-broom >=0.5.4
@@ -83,7 +83,8 @@ test:
     - "\"%R%\" -e \"library('tern')\""  # [win]
 
 about:
-  home: https://insightsengineering.github.io/tern/, https://github.com/insightsengineering/tern/
+  home: https://insightsengineering.github.io/tern/
+  dev_url: https://github.com/insightsengineering/tern/
   license: Apache-2.0
   summary: Table, Listings, and Graphs (TLG) library for common outputs used in clinical trials.
   license_family: APACHE
