@@ -1,4 +1,4 @@
-{% set version = "0.9.10" %}
+{% set version = "0.9.11" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tern_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tern/tern_{{ version }}.tar.gz
-  sha256: 2c5359d99fd658f0723389aaff5652d232e90dddabb6b74d044981669584da60
+  sha256: 6251161a05f84c5007a69a2496afb0d2ff89c3615ef5c89d27d683eaab0e3a44
 
 build:
   number: 0
@@ -43,12 +43,11 @@ requirements:
     - r-gtable >=0.3.0
     - r-labeling
     - r-lifecycle >=0.2.0
-    - r-magrittr >=1.5
     - r-nestcolor >=0.1.1
     - r-rlang >=1.1.0
     - r-rtables >=0.6.15
     - r-scales >=1.2.0
-    - r-survival >=3.8_3
+    - r-survival >=3.8_9
     - r-tibble >=3.2.1
     - r-tidyr >=0.8.3
   run:
@@ -68,12 +67,11 @@ requirements:
     - r-gtable >=0.3.0
     - r-labeling
     - r-lifecycle >=0.2.0
-    - r-magrittr >=1.5
     - r-nestcolor >=0.1.1
     - r-rlang >=1.1.0
     - r-rtables >=0.6.15
     - r-scales >=1.2.0
-    - r-survival >=3.8_3
+    - r-survival >=3.8_9
     - r-tibble >=3.2.1
     - r-tidyr >=0.8.3
 
